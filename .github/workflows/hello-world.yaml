@@ -1,4 +1,4 @@
-Name: Pandurang
+name: Pandurang
 on:
   push:
     branches: 
