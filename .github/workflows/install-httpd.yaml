@@ -1,0 +1,13 @@
+name: yamldemo
+on:
+  push:
+    branches:
+      - 'Master'
+jobs:
+  demo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: pandu
+        uses: actions/checkouts@v2
+      - name: install httpd
+        run: install httpd
