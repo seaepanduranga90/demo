@@ -1,0 +1,13 @@
+Name: Pandurang
+on:
+  push:
+    branches: 
+      - 'Master'
+job:
+  demo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: test
+        uses: actions/checkout@v2
+      - name: hellow world
+        run: echo "hellow world"    
