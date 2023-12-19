@@ -1,0 +1,13 @@
+name: Pandurang1
+on:
+  push:
+    branches:
+      - 'Master'
+jobs:
+  demo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: test1
+        uses: actions/checkout@v2
+      - name: hellow world pandurang is there1
+        run: echo "hellow world pandurang is there1"
