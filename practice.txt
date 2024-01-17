@@ -1,3 +1,4 @@
 hi this is pandurang
 first fetch then commit
 add configuration
+add remote origin
