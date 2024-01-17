@@ -3,3 +3,4 @@ first fetch then commit
 add configuration
 add remote origin
 first pull remote
+git rebase origin
